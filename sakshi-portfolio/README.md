@@ -1,42 +1,118 @@
-# Sakshi Pawar — Personal Developer Portfolio
 
-A light-first, responsive portfolio made with semantic HTML, CSS, and vanilla JavaScript.
+# Sakshi Pawar — Personal Portfolio
 
-## Files
-- `index.html` — page structure and portfolio content
-- `style.css` — responsive styling, light/dark themes, animations and project artwork
-- `script.js` — mobile menu, theme toggle, project detail modals and contact settings
-- `assets/` — place your resume PDF here
+Welcome to my personal developer portfolio! 👋
 
-## Before publishing
-1. Open `script.js` and set `PORTFOLIO_CONFIG.email` to your real professional email. Leave it blank if you don't want to publish one yet.
-2. Put your current resume PDF in `assets/` and name it `Sakshi_Pawar_Resume.pdf`. Do not publish a resume containing private information you do not want public.
-3. Check both repository links in `index.html` and `script.js` open the correct public repositories.
-4. Review project descriptions and only claim features/technologies you actually implemented.
-5. If any skill is still at beginner level, be ready to explain your current understanding honestly in interviews.
+I'm Sakshi Pawar, an Information Technology graduate interested in frontend development and building responsive, user-friendly web applications.
 
-## Run locally
-No build step is needed:
-1. Extract the ZIP.
-2. Open `index.html` in your browser.
-3. For a local server, open the folder in VS Code and use the Live Server extension, or run `python -m http.server 8000` from this folder and visit `http://localhost:8000`.
+This portfolio showcases my skills, projects, education, professional experience, and contact information.
 
-## Deploy to GitHub Pages
-1. Create a public GitHub repository named `sakshi-portfolio` (or another name you prefer).
-2. Upload `index.html`, `style.css`, `script.js`, `README.md`, and the `assets` folder to the repository root. Do not upload private company data or confidential files.
-3. On GitHub, open **Settings → Pages**.
-4. Under **Build and deployment**, choose **Deploy from a branch**, select `main` and `/ (root)`, then save.
-5. Wait for the Pages deployment to finish. GitHub will show the live URL on the Pages settings screen.
-6. Open the live URL on a phone and desktop and test every link, the menu, theme switch and project dialogs.
+## 🌐 Live Portfolio
 
-## Deploy to Netlify (alternative)
-1. Sign in to Netlify and choose **Add new site → Deploy manually**.
-2. Drag the extracted portfolio folder into the deploy area, or connect the GitHub repository.
-3. Netlify will publish the static website and provide a live URL.
-4. Test the published site and update it by redeploying or pushing repository changes.
+Coming soon — I'll add my deployed portfolio link here.
 
-## Notes
-- The portfolio is static: no backend or contact form is configured.
-- The email control copies the email address you set in `script.js`; if clipboard access is unavailable it opens the default email app.
-- The resume link only works once the PDF is added to `assets/`.
-- This portfolio does not claim to be deployed yet. Deployment happens when you complete one of the steps above.
+## ✨ Features
+
+- Clean and modern user interface
+- Responsive design for desktop, tablet, and mobile
+- Light and dark theme toggle
+- Mobile-friendly navigation
+- Smooth scrolling between sections
+- About me and technical skills
+- Featured projects with GitHub links
+- Education and professional experience
+- Resume access
+- Contact information and social links
+
+## 🛠️ Technologies Used
+
+- HTML5
+- CSS3
+- JavaScript
+- Git and GitHub
+
+## 📂 Project Structure
+
+```text
+sakshi-portfolio/
+├── index.html
+├── style.css
+├── script.js
+├── README.md
+└── assets/
+    └── Sakshi_Pawar_Resume.pdf
+```
+
+## 🚀 How to Run Locally
+
+1. Clone this repository:
+
+   ```bash
+   git clone https://github.com/Sakshi040405/sakshi-portfolio.git
+   ```
+
+2. Open the project folder:
+
+   ```bash
+   cd sakshi-portfolio
+   ```
+
+3. Open `index.html` in your browser.
+
+   Alternatively, use the Live Server extension in Visual Studio Code.
+
+## 💻 Featured Projects
+
+### 1. Employee Productivity Tracker
+A Flask-based dashboard for tracking employee productivity, production data, and quality errors using Excel files and SQLite.
+
+**Technologies:** Python, Flask, SQLite, Pandas, HTML, CSS, JavaScript
+
+[View Repository](https://github.com/Sakshi040405/employee-productivity-tracker)
+
+### 2. Phishing Email Detection Using AI
+A project focused on identifying potentially malicious phishing emails using AI-related techniques.
+
+**Technology:** Python and AI-related tools
+
+[View Repository](https://github.com/Sakshi040405/phishing-email-detection-using-ai)
+
+### 3. Other Projects
+- To-Do List Web Application
+- Dating Page UI Project
+- E-Commerce Product Listing
+
+Repository links for these projects will be added when available.
+
+## 🎓 Education
+
+**Bachelor of Engineering — Information Technology**  
+Genba Sopanrao Moze College of Engineering, Pune
+
+**Higher Secondary Certificate (HSC)**  
+Dayanand Science Junior College, Latur
+
+## 💼 Experience
+
+**Junior Underwriter Intern**  
+Techsurance Private Limited, Pune
+
+March 2026 – August 2026
+
+## 📜 Training
+
+Web Development — DELTA TECH
+
+## 📫 Connect With Me
+
+- **GitHub:** [Sakshi040405](https://github.com/Sakshi040405)
+- **LinkedIn:** [Sakshi Pawar](https://www.linkedin.com/in/sakshi-pawar-4113353a0/)
+- **Email:** sakshipawar8689@gmail.com
+
+## 🎯 Career Objective
+
+To start my career in frontend or software development, strengthen my technical skills, and contribute to building useful, accessible, and user-friendly applications.
+
+---
+
+Made with ❤️ by Sakshi Pawar.
