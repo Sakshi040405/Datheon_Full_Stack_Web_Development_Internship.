@@ -1,0 +1,304 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta name="description" content="Sakshi Pawar — Frontend Developer portfolio, projects, skills and experience.">
+  <title>Sakshi Pawar | Frontend Developer</title>
+
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <header class="header">
+    <nav class="navbar container">
+      <a class="logo" href="#home">Sakshi<span>.</span></a>
+
+      <button class="menu-toggle" id="menuToggle"
+              aria-label="Toggle navigation" aria-expanded="false">
+        ☰
+      </button>
+
+      <div class="nav-links" id="navLinks">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#experience">Experience</a>
+        <a href="#education">Education</a>
+        <a href="#contact" class="nav-contact">Contact</a>
+        <button id="themeToggle" class="theme-toggle" aria-label="Toggle theme">🌙</button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero container" id="home">
+      <div class="hero-content">
+        <p class="eyebrow">HELLO, I'M</p>
+        <h1>Sakshi Pawar</h1>
+        <h2>Aspiring <span>Frontend Developer</span></h2>
+
+        <p class="hero-description">
+          I enjoy building responsive, user-friendly web applications and
+          learning new technologies. I'm looking for an opportunity to grow
+          as a developer and contribute to real-world projects.
+        </p>
+
+        <div class="hero-buttons">
+          <a href="#projects" class="btn btn-primary">Explore My Work ↗</a>
+          <a href="assets/Sakshi_Pawar_Resume.pdf"
+             class="btn btn-secondary" target="_blank" rel="noopener">
+            View Resume ↗
+          </a>
+        </div>
+
+        <div class="social-links">
+          <a href="https://github.com/Sakshi040405"
+             target="_blank" rel="noopener">GitHub ↗</a>
+          <a href="https://www.linkedin.com/in/sakshi-pawar-4113353a0/"
+             target="_blank" rel="noopener">LinkedIn ↗</a>
+        </div>
+      </div>
+
+      <div class="hero-card">
+        <div class="profile-circle">SP</div>
+        <p class="card-caption">DEVELOPER IN PROGRESS</p>
+        <h3>Curious mind. Creative solutions.</h3>
+        <p>Learning, building and improving one project at a time.</p>
+        <div class="status"><span></span> Open to opportunities</div>
+      </div>
+    </section>
+
+    <section class="section section-soft" id="about">
+      <div class="container">
+        <p class="eyebrow">GET TO KNOW ME</p>
+        <h2 class="section-title">About Me</h2>
+
+        <div class="about-grid">
+          <div>
+            <p>
+              I'm Sakshi, an Information Technology graduate interested in
+              frontend development and building practical web applications.
+            </p>
+            <p>
+              My skills include HTML, CSS and JavaScript, along with experience
+              using Git, GitHub, SQLite and Flask in projects. I enjoy learning
+              by building and improving my coding skills.
+            </p>
+          </div>
+
+          <div class="about-facts">
+            <div class="fact"><span>Focus</span><strong>Frontend Development</strong></div>
+            <div class="fact"><span>Based in</span><strong>Pune, Maharashtra</strong></div>
+            <div class="fact"><span>Career stage</span><strong>Early-career developer</strong></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container" id="skills">
+      <p class="eyebrow">WHAT I WORK WITH</p>
+      <h2 class="section-title">My Skills</h2>
+
+      <div class="skills-grid">
+        <article class="skill-card">
+          <div class="skill-icon">🌐</div>
+          <h3>Frontend</h3>
+          <div class="tags">
+            <span>HTML5</span><span>CSS3</span><span>JavaScript</span>
+            <span>React.js</span><span>Material UI</span>
+          </div>
+        </article>
+
+        <article class="skill-card">
+          <div class="skill-icon">⚙️</div>
+          <h3>Backend & Data</h3>
+          <div class="tags">
+            <span>Python</span><span>Flask</span><span>SQLite</span>
+            <span>SQL</span><span>REST APIs</span>
+          </div>
+        </article>
+
+        <article class="skill-card">
+          <div class="skill-icon">🧰</div>
+          <h3>Tools</h3>
+          <div class="tags">
+            <span>Git</span><span>GitHub</span><span>VS Code</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section section-soft" id="projects">
+      <div class="container">
+        <p class="eyebrow">THINGS I'VE BUILT</p>
+        <h2 class="section-title">Featured Projects</h2>
+        <p class="section-subtitle">
+          A selection of projects showcasing my learning and practical skills.
+        </p>
+
+        <div class="projects-grid">
+          <article class="project-card">
+            <div class="project-visual visual-blue">📊</div>
+            <div class="project-body">
+              <span class="project-type">WEB APPLICATION</span>
+              <h3>Employee Productivity Tracker</h3>
+              <p>
+                A Flask dashboard for tracking employee productivity,
+                daily production and quality errors using Excel data and SQLite.
+              </p>
+              <div class="tags"><span>Python</span><span>Flask</span><span>SQLite</span><span>JavaScript</span></div>
+              <a class="project-link"
+                 href="https://github.com/Sakshi040405/employee-productivity-tracker"
+                 target="_blank" rel="noopener">View on GitHub ↗</a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-visual visual-purple">🛡️</div>
+            <div class="project-body">
+              <span class="project-type">AI / SECURITY</span>
+              <h3>Phishing Email Detection Using AI</h3>
+              <p>
+                A project focused on identifying potentially malicious
+                phishing emails using AI-related techniques.
+              </p>
+              <div class="tags"><span>Python</span><span>AI</span><span>Email Security</span></div>
+              <a class="project-link"
+                 href="https://github.com/Sakshi040405/phishing-email-detection-using-ai"
+                 target="_blank" rel="noopener">View on GitHub ↗</a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-visual visual-pink">✅</div>
+            <div class="project-body">
+              <span class="project-type">FRONTEND</span>
+              <h3>To-Do List Web Application</h3>
+              <p>
+                A task management interface for adding, viewing and
+                completing everyday tasks.
+              </p>
+              <div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+              <span class="project-note">Add your repository link when available.</span>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-visual visual-orange">🎨</div>
+            <div class="project-body">
+              <span class="project-type">UI / UX</span>
+              <h3>Dating Page UI Project</h3>
+              <p>
+                A web page concept focused on visual design, layout,
+                styling and responsive user experience.
+              </p>
+              <div class="tags"><span>HTML</span><span>CSS</span><span>UI Design</span></div>
+              <span class="project-note">Add your repository link when available.</span>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-visual visual-green">🛍️</div>
+            <div class="project-body">
+              <span class="project-type">WEB DEVELOPMENT</span>
+              <h3>E-Commerce Product Listing</h3>
+              <p>
+                A product listing interface concept for presenting products
+                in an organised and user-friendly layout.
+              </p>
+              <div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+              <span class="project-note">Add your repository link when available.</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container" id="experience">
+      <p class="eyebrow">MY PROFESSIONAL JOURNEY</p>
+      <h2 class="section-title">Experience</h2>
+
+      <div class="timeline">
+        <article class="timeline-item">
+          <span class="timeline-dot"></span>
+          <div class="timeline-card">
+            <span class="timeline-date">March 2026 – August 2026</span>
+            <h3>Junior Underwriter Intern</h3>
+            <h4>Techsurance Private Limited · Pune</h4>
+            <ul>
+              <li>Reviewed customer applications and supporting documents.</li>
+              <li>Assisted with application review and documentation checks.</li>
+              <li>Collaborated with senior team members during the review process.</li>
+            </ul>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section section-soft" id="education">
+      <div class="container">
+        <p class="eyebrow">MY LEARNING JOURNEY</p>
+        <h2 class="section-title">Education & Training</h2>
+
+        <div class="education-grid">
+          <article class="education-card">
+            <span class="education-year">2022 – 2026</span>
+            <h3>Bachelor of Engineering — Information Technology</h3>
+            <p>Genba Sopanrao Moze College of Engineering, Pune</p>
+            <strong>CGPA: 7.34 / 10</strong>
+          </article>
+
+          <article class="education-card">
+            <span class="education-year">2020 – 2022</span>
+            <h3>Higher Secondary Certificate (HSC)</h3>
+            <p>Dayanand Science Junior College, Latur</p>
+            <strong>65%</strong>
+          </article>
+
+          <article class="education-card">
+            <span class="education-year">Training</span>
+            <h3>Web Development</h3>
+            <p>DELTA TECH</p>
+            <strong>Frontend development fundamentals</strong>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container" id="contact">
+      <div class="contact-panel">
+        <p class="eyebrow">LET'S CONNECT</p>
+        <h2>Have an opportunity in mind?</h2>
+        <p>
+          I'm interested in entry-level frontend and software development
+          opportunities where I can learn, contribute and grow.
+        </p>
+
+        <a href="mailto:sakshipawar8689@gmail.com" class="btn btn-primary">
+          Email Me ↗
+        </a>
+
+        <div class="contact-details">
+          <p>Email: <a href="mailto:sakshipawar8689@gmail.com">sakshipawar8689@gmail.com</a></p>
+          <p>Phone: <a href="tel:+919322606737">+91 93226 06737</a></p>
+          <p>GitHub: <a href="https://github.com/Sakshi040405" target="_blank" rel="noopener">github.com/Sakshi040405</a></p>
+          <p>LinkedIn: <a href="https://www.linkedin.com/in/sakshi-pawar-4113353a0/" target="_blank" rel="noopener">View my profile</a></p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <a class="logo" href="#home">Sakshi<span>.</span></a>
+      <p>Designed and built by Sakshi Pawar · <span id="year"></span></p>
+      <a href="#home">Back to top ↑</a>
+    </div>
+  </footer>
+</body>
+</html>
